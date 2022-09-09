@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-/*
+/**
  * main - Entry point
  * program to complete the incomplete code
  * Return: Always 0 (Success)

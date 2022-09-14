@@ -1,11 +1,30 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * print_times_table - prints times table of the input
+ * main - arrange the numbers
+ * Return: 0 when done
+ */
+
+/**
+ * print_times_table:  prints times table of the input
+ *
  * @n: The number for the times table
  *
  */
 
+
+int main(void)
+{
+	print_times_table(3);
+	_putchar('\n');
+	print_times_table(5);
+	_putchar('\n');
+	print_times_table(98);
+	_putchar('\n');
+	print_times_table(12);
+	return (0);
+}
 
 void print_times_table(int n)
 {
@@ -26,8 +45,7 @@ void print_times_table(int n)
 
 /**
  * putformat - formatted characters to output
- *
- * @n: number to format
+ * @n: number used
  * Return: nothing
  */
 

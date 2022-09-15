@@ -10,20 +10,22 @@ void print_diagonal(int n)
 {
 	int line, space;
 
-	if (n > 0)
+	if (n <= 0)
+		_putchar('\n');
+
+	for (line = 0; line < n; line++)
 	{
-		for (line = 0; line < n; line++)
+		for (space = 0; space <= line; space++)
 		{
-			for (space = 0; space < line; space++)
+			if (line == space)
+			{
+				_putchar('\\');
+				_putchar('\n');
+			}
+			else
+			{
 				_putchar(' ');
-			_putchar('\\');
-
-			if (line == n - 1)
-				continue;
-
-			_putchar('\n');
+			}
 		}
 	}
-
-	_putchar('\n');
 }

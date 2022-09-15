@@ -6,7 +6,7 @@
  * Return: always 0
  */
 
-int mani(void)
+int main(void)
 {
 	unsigned long num1 = 0, num2 = 1, fibsum;
 	float total;

@@ -17,7 +17,7 @@ int main(void)
 		num += i;
 }
 
-printf("%d\n", num)
+printf("%d\n", num);
 
 return (0);
 }

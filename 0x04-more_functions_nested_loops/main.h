@@ -15,9 +15,4 @@ void print_square;
 void print_triangle;
 void print_number;
 
-
-
-
-
-
 #endif

@@ -5,17 +5,21 @@
  * @size: The size of the square.
  *
  */
+
+
 void print_square(int size)
 {
-	int height, width;
+	int hgt, wid;
 
-	if (size <= 0)
-		_putchar('\n');
-
-	for (height = 0; height < size; height++)
+	if (size > 0)
+	{
+		for (hgt = 0; hgt < size; hgt++)
 		{
-			for (width = 0; width < size; width++)
+			for (wid = 0; wid < size; wid++)
 				_putchar('#');
+
+			if (hgt == size - 1)
+				continue;
 			_putchar('\n');
 		}
 	}

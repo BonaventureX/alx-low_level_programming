@@ -3,7 +3,7 @@
 /**
  * main - Prints 1-100, while printing fizz for multiples of three,
  *        and buzz for multiples of five,
- *       
+ *
  * Return: Always 0.
  */
 int main(void)

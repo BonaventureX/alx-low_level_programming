@@ -7,7 +7,7 @@
  * @accept: The set of bytes searched for
  *
  * Return: pointer
-*/
+ */
 
 char *_strpbrk(char *s, char *accept)
 {
@@ -24,5 +24,5 @@ char *_strpbrk(char *s, char *accept)
 		s++;
 	}
 
-	return ('\0')
+	return ('\0');
 }

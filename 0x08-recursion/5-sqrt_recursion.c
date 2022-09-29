@@ -21,7 +21,7 @@ int find_sqrt(int num, int itr)
 		else
 			return (itr);
 	}
-	return (find_sqrt(num, root + 1));
+	return (find_sqrt(num, itr + 1));
 }
 
 /**

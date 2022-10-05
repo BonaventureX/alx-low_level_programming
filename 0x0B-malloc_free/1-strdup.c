@@ -3,8 +3,8 @@
 
 
 /*
- * _strdup - Returns a pointer to a newly-allocated space in memory
- * 
+ * _strdup - returns a pointer to a anew string which is a dup
+ *
  * @str: string to be copied.
  *
  * Return: If str == NULL or insufficient memory is available - NULL.
